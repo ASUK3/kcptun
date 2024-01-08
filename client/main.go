@@ -135,7 +135,7 @@ func main() {
 		},
 		cli.IntFlag{
 			Name:  "mtu",
-			Value: 1350,
+			Value: 1500,
 			Usage: "set maximum transmission unit for UDP packets",
 		},
 		cli.IntFlag{
@@ -194,7 +194,7 @@ func main() {
 		},
 		cli.IntFlag{
 			Name:  "sockbuf",
-			Value: 4194304, // socket buffer size in bytes
+			Value: 16777217, // socket buffer size in bytes
 			Usage: "per-socket buffer in bytes",
 		},
 		cli.IntFlag{
